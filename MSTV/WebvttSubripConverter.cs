@@ -66,7 +66,7 @@ namespace VttSrtConverter.Core
                             if (foundCaption)
                                 break;
                             else
-                                throw new Exception(Strings.invalidFile);
+                                throw new Exception("invalist sub file");
                         }
                         if (String.IsNullOrEmpty(line) || String.IsNullOrWhiteSpace(line))
                         {
